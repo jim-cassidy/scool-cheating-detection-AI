@@ -19,4 +19,4 @@ horizontal trend.  I am also seing a lot of variation.
 Conclusion:
 
 I am seeing a lack of effort, and great variation.  If that 70% was real, then very little effort is being
-put in.  Also, since I am seeing a downward trend in abiliy, the 70% is suspicous.
+put in.  She did score a high score on a progress test, so this could be a lack of effort.
