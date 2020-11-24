@@ -6,3 +6,4 @@
 Sometimes students are not working hard, and others there is cheating.  I am
 sharing my research into this area.
 
+![alt text](https://github.com/jim-cassidy/scool-cheating-detection-AI/blob/main/screenshots/screenshot1.png)
