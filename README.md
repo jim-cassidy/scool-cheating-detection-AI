@@ -13,13 +13,19 @@ and then introduce deep learning.
     
 ## Method No. 2
 
-    Use standard deviation to see if the in-sessionw work varies.  If scores are 
+    Use standard deviation to see if the in-session work varies.  If scores are 
 going up and down to much, it means cheating, or varying effort levels.
 
 
 ## Method No. 2
 
     Use Linear Regression, compare two different methods of student testing
-to see if the trend matches.
+to see if the trend matches.  If the regression is different, then potential
+cheating is possible
+
+## Method No. 3
+
+    Use Tenrflow, and based on previous data, use deep learning so AI can automatically
+detect cheating based on dats.
 
  
