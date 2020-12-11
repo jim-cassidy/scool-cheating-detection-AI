@@ -1,3 +1,5 @@
+https://www.tensorflow.org/tutorials/structured_data/feature_columns
+
 # scool-cheating-detection-AI / effort
 
 ## Introduction
