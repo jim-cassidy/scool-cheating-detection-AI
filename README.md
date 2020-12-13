@@ -1,7 +1,9 @@
 https://www.tensorflow.org/tutorials/structured_data/feature_columns
 
-# scool-cheating-detection-AI / effort
+https://www.digitalocean.com/community/tutorials/how-to-build-a-deep-learning-model-to-predict-employee-retention-using-keras-and-tensorflow
 
+# scool-cheating-detection-AI / effort
+  
 ## Introduction
 
     I work in education, and it is important that I monitor student's effors.
