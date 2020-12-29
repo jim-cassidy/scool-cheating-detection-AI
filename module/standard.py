@@ -2,31 +2,36 @@ import pandas as pd
 import io
 import math
  
-df = pd.read_csv('sd.csv')
-print (df)
+## function to return standard deviation
+## based on excel file of numbers
 
-dfcount = df.numbers.count()
-print ( dfcount )
+def standard(file_name):
 
-dfsum = df.numbers.sum()
-print ( dfsum )
+# read file
+    df = pd.read_csv(file_name)
 
-dfaverage = dfsum / dfcount
-print ( dfaverage )
+# use measures of central tendency
+    dfcount = df.numbers.count()
+    dfsum = df.numbers.sum()
+    dfaverage = dfsum / dfcount
+    print ( dfaverage )
 
-squaredsum = 0
-temp = 0
+    squaredsum = 0
+    temp = 0
  
-for x in range ( dfcount ):
-    print ( df.numbers[x] )
-    temp = ( df.numbers[x] - dfaverage )
-    print ( temp )
-    temp *= temp
-    print ( temp )
-    squaredsum += temp
+#  summation for standard deviation
+    for x in range ( dfcount ):
+        print ( df.numbers[x] )
+        temp = ( df.numbers[x] - dfaverage )
+        print ( temp )
+        temp *= temp
+        print ( temp )
+        squaredsum += temp
 
-print ( squaredsum )
+    deviation = squaredsum / dfcount 
 
-deviation = squaredsum / dfcount 
-deviation = math.sqrt( deviation )
-print ( deviation )
+# square root for deviation
+    deviation = math.sqrt( deviation ) 
+
+   
+    return deviation
